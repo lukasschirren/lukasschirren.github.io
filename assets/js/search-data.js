@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-episode-7-navigating-global-energy-shifts-energy-futures-lab-imperial-college-london",
+        },{id: "post-a-website-to-visualise-the-results-from-my-master-thesis",
+      
+        title: "A website to visualise the results from my master thesis",
+      
+      description: "Thesis topic was spatial-temporal optimisation for green hydrogen production",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Hydrogen-in-Laos/";
+        
+      },
+    },{id: "post-episode-7-navigating-global-energy-shifts-energy-futures-lab-imperial-college-london",
       
         title: 'Episode 7 - Navigating Global Energy Shifts | Energy Futures Lab | Imperial... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -32,17 +43,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://www.imperial.ac.uk/energy-futures-lab/energy-futures-podcast/episode-7---navigating-global-energy-shifts/", "_blank");
-        
-      },
-    },{id: "post-a-post-with-table-of-contents",
-      
-        title: "a post with table of contents",
-      
-      description: "an example of a blog post with table of contents",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/table-of-contents/";
         
       },
     },{id: "news-a-long-announcement-with-details",
