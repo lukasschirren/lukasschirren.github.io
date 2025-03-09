@@ -45,15 +45,15 @@ ninja.data = [{
           window.open("https://www.imperial.ac.uk/energy-futures-lab/energy-futures-podcast/episode-7---navigating-global-energy-shifts/", "_blank");
         
       },
-    },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+    },{id: "news-completed-my-master-s-degree-with-distinction",
+          title: 'Completed my master’s degree with distinction.',
+          description: "",
+          section: "News",},{id: "news-a-visit-to-laos-to-present-my-research",
+          title: 'A visit to Laos to present my research',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-successfully-completed-my-master-s-degree",
-          title: 'Successfully completed my master’s degree.',
-          description: "",
-          section: "News",},{id: "news-said-ghost-lightning-instead-of-gaslighting",
+              window.location.href = "/news/20250201/";
+            },},{id: "news-said-ghost-lightning-instead-of-gaslighting",
           title: 'Said ghost lightning instead of gaslighting.',
           description: "",
           section: "News",},{
