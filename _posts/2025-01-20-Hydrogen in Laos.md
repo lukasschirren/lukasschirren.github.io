@@ -3,8 +3,8 @@ layout: post
 title: A website to visualise the results from my master thesis
 date: 2025-01-20 
 description: Thesis topic was spatial-temporal optimisation for green hydrogen production
-tags: formatting toc
-categories: sample-posts
+# tags: formatting toc
+# categories: sample-posts
 giscus_comments: false
 related_posts: false
 # toc:
