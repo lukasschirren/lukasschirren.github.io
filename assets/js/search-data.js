@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-a-website-to-visualise-the-results-from-my-master-thesis",
+        },{id: "post-mapping-traffic-camera-blind-spots-near-imperial-college-london",
+      
+        title: "Mapping Traffic Camera Blind Spots Near Imperial College London",
+      
+      description: "Using open data, I visualized traffic camera blind spots in Kensington, exploring urban surveillance coverage.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Traffic-cam-blind-spots/";
+        
+      },
+    },{id: "post-a-website-to-visualise-the-results-from-my-master-thesis",
       
         title: "A website to visualise the results from my master thesis",
       
