@@ -25,15 +25,14 @@ I started looking into it and found a website visualizing [TfL’s traffic camer
 4. **Blind Spot Identification**: Areas blocked by buildings or outside the camera’s range were classified as blind spots.
 5. **Visualization**: Used Folium to create an interactive map.
 
-## Visualisation of the location of Jam Cams
+## Visualisation
 
 The locations of all TfL traffic cameras in London are visible here:
-<link href="https://github.com/lukasschirren/jamcam-blind-spot/blob/main/maps/camera_map.html" rel="import" />
+<iframe src="https://lukasschirren.github.io/assets/maps/camera_map.html"
+        width="100%" height="600" style="border: none;"></iframe>  
 
-## Visualisation of camera covera  
 The final result is an interactive map of traffic camera coverage in Kensington. Cameras are shown as black dots, blue areas indicate visibility, and gray zones represent blind spots.  
-
-<iframe src="kensington_blind_spot_map.html"
+<iframe src="https://lukasschirren.github.io/assets/maps/kensington_blind_spot_map.html"
         width="100%" height="600" style="border: none;"></iframe>  
 
 If the embed doesn’t load, you can view it directly [here](https://lukasschirren.github.io/jamcam-blind-spot/kensington_blind_spot_map.html).  
