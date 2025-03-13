@@ -59,15 +59,15 @@ ninja.data = [{
     },{id: "news-completed-my-master-s-degree-with-distinction",
           title: 'Completed my master’s degree with distinction.',
           description: "",
+          section: "News",},{id: "news-started-working-as-a-research-associate-at-imperial-college-london-with-prof-adam-hawkes",
+          title: 'Started working as a Research Associate at Imperial College London with Prof Adam...',
+          description: "",
           section: "News",},{id: "news-a-visit-to-laos-to-present-my-research",
           title: 'A visit to Laos to present my research',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250201/";
-            },},{id: "news-said-ghost-lightning-instead-of-gaslighting",
-          title: 'Said ghost lightning instead of gaslighting.',
-          description: "",
-          section: "News",},{
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
