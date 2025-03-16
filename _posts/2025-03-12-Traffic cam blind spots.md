@@ -35,7 +35,6 @@ The final result is an interactive map of traffic camera coverage in Kensington.
 <iframe src="https://lukasschirren.github.io/assets/maps/kensington_blind_spot_map.html"
         width="100%" height="600" style="border: none;"></iframe>  
 
-If the embed doesn’t load, you can view it directly [here](https://lukasschirren.github.io/jamcam-blind-spot/kensington_blind_spot_map.html).  
 
 ---
 
