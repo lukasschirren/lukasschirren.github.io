@@ -16,19 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-news",
-          title: "News",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
-          },
         },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
           },
         },{id: "post-mapping-traffic-camera-blind-spots-near-imperial-college-london",
       
