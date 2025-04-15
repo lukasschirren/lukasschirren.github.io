@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>PhD Student @Imperial College London</a>
+subtitle: <a href='#'>Researcher @Imperial College London</a>
 
 profile:
   align: right
