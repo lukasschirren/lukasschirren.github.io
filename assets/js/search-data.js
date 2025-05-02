@@ -63,8 +63,8 @@ ninja.data = [{
           window.open("https://www.imperial.ac.uk/energy-futures-lab/energy-futures-podcast/episode-7---navigating-global-energy-shifts/", "_blank");
         
       },
-    },{id: "news-summer-school-electricity-market-and-advanced-power-transmission-technology-at-south-china-university-of-technology-in-guangzhou-china",
-          title: 'Summer School “Electricity Market and Advanced Power Transmission Technology” at South China University...',
+    },{id: "news-summer-school-on-electricity-markets-and-transmission-at-south-china-university-of-technology-in-guangzhou",
+          title: 'Summer School on electricity markets and transmission at South China University of Technology...',
           description: "",
           section: "News",},{id: "news-completed-my-master-s-degree-with-distinction",
           title: 'Completed my master’s degree with distinction.',
