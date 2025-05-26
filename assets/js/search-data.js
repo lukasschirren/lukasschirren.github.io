@@ -77,7 +77,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250201/";
-            },},{
+            },},{id: "news-attending-the-international-energy-workshop-in-japan-and-presenting-on-spatial-temporal-optimisation-of-green-hydrogen-sites",
+          title: 'Attending the International Energy Workshop in Japan and presenting on spatial-temporal optimisation of...',
+          description: "",
+          section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
