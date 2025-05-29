@@ -77,8 +77,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250201/";
-            },},{id: "news-attending-the-international-energy-workshop-in-japan-and-presenting-on-spatial-temporal-optimisation-of-green-hydrogen-sites",
-          title: 'Attending the International Energy Workshop in Japan and presenting on spatial-temporal optimisation of...',
+            },},{id: "news-excited-to-present-hydropower-enhanced-spatial-modelling-for-green-hydrogen-at-the-international-energy-workshop-in-japan",
+          title: 'Excited to present hydropower-enhanced spatial modelling for green hydrogen at the International Energy...',
           description: "",
           section: "News",},{
       id: 'light-theme',
