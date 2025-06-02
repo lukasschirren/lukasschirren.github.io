@@ -24,9 +24,9 @@ latest_posts:
 ---
 
 ## About me
-My research interests span system modelling, optimisation, operations research, and ML with a strong focus on real-world energy challenges. I plan to leverage advanced machine learning techniques to enhance energy system modelling, particularly in the context of uncertainty and risk, for example resilient infrastructure and capacity planning.
+My research interests span system modelling, optimisation, operations research, and ML with a strong focus on real-world energy challenges. I aim to apply machine learning to enhance energy system models through advanced data preprocessing, hybrid modelling, and applications for energy resilience.
 
-My current projects cover industrial decarbonisation (green hydrogen/ammonia/steel) in _Ukraine_, hydropower-based hydrogen production in _Lao PDR_ and _Nepal_.
+My current projects cover industrial decarbonisation (green hydrogen for ammonia/steel) in _Ukraine_, hydropower-based hydrogen production in _Lao PDR_ and _Nepal_. 
 
 ##### Education
 
