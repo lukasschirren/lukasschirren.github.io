@@ -77,10 +77,12 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250201/";
-            },},{id: "news-presented-on-hydropower-enhanced-spatial-modelling-for-green-hydrogen-at-the-international-energy-workshop-in-nara-japan",
-          title: 'Presented on Hydropower-Enhanced Spatial Modelling for Green Hydrogen at the International Energy Workshop...',
+            },},{id: "news-attended-the-international-energy-workshop-2025-in-japan",
+          title: 'Attended the International Energy Workshop 2025 in Japan',
           description: "",
-          section: "News",},{
+          section: "News",handler: () => {
+              window.location.href = "/news/20250610/";
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
