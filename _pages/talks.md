@@ -29,13 +29,13 @@ nav_order: 1
           {% endif %}
         {% endif %}
         {% if talk.description %}
-          . {{ talk.description }}
+        . {{ talk.description }}
         {% endif %}
         {% if talk.venue %}
-          . Held at <em>{{ talk.venue }}</em>{% if talk.location %} in {{ talk.location }}{% endif %}
+        . Held at <em>{{ talk.venue }}</em>{% if talk.location %} in {{ talk.location }}{% endif %}
         {% endif %}
         {% if talk.video %}
-          . A video recording is available on <a href="{{ talk.video }}" target="_blank">YouTube</a>
+        . A video recording is available on <a href="{{ talk.video }}" target="_blank">YouTube</a>
         {% endif %}.
       </p>
     </div>
