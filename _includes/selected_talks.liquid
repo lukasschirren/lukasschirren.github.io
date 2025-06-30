@@ -1,0 +1,22 @@
+<!-- Selected talks include for homepage -->
+{% assign recent_talks = site.data.talks | sort: "date" | reverse | slice: 0, 3 %}
+
+<div class="selected-talks">
+  {% for talk in recent_talks %}
+    <div class="talk-item">
+      <p>
+        <strong>{{ talk.date }}</strong>. 
+        {% if talk.title %}
+          {% if talk.slides %}
+            <a href="{{ talk.slides }}" target="_blank">{{ talk.title }}</a>
+          {% else %}
+            {{ talk.title }}
+          {% endif %}
+        {% endif %}
+        {% if talk.venue %}
+          <em>{{ talk.venue }}</em>{% if talk.location %}, {{ talk.location }}{% endif %}.
+        {% endif %}
+      </p>
+    </div>
+  {% endfor %}
+</div>

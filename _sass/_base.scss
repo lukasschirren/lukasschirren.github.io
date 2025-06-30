@@ -1343,3 +1343,27 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// Talks page styles
+.talks {
+  .talk-entry {
+    margin-bottom: 1.5rem;
+    
+    p {
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+    
+    strong {
+      font-weight: 600;
+    }
+  }
+  
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.5rem;
+  }
+}

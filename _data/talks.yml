@@ -1,0 +1,14 @@
+# Talks data
+# Each talk should have: year, date, title, description (optional), venue, location (optional), slides (optional), video (optional)
+
+- year: 2025
+  date: "2025, June 13"
+  title: "Hydropower-Enhanced Spatial Modelling for Green Hydrogen in Data-Constrained Countries"
+  venue: "IEW"
+  location: "Nara, Japan"
+
+- year: 2025
+  date: "2025, March 16"
+  title: "Green Hydrogen Production Sites in Laos"
+  venue: "Distinguished Seminar Series"
+  location: "London"
