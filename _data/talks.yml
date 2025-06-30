@@ -16,8 +16,15 @@
   location: "Imperial"
 
 - year: 2025
+  date: "February 5"
+  sort_date: "2025-02-05"
+  title: "Green Hydrogen Production Sites in Laos"
+  venue: "Climate Compatible Growth Workshop"
+  location: "Vientiane, Laos"
+
+- year: 2025
   date: "January 22"
   sort_date: "2025-01-22"
-  title: "Green Hydrogen Production Sites in Laos"
+  title: "Geospatial Analysis of Hydrogen Production Costs"
   venue: "Grantham Institute Climate Research Showcase"
   location: "Imperial"
