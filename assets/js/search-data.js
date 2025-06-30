@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "Blog",
+  },{id: "nav-talks",
+          title: "Talks",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/talks/";
           },
         },{id: "nav-publications",
           title: "Publications",
@@ -23,19 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-news",
-          title: "News",
+        },{id: "nav-blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/";
-          },
-        },{id: "nav-talks",
-          title: "Talks",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/talks/";
+            window.location.href = "/blog/";
           },
         },{id: "post-mapping-traffic-camera-blind-spots-near-imperial-college-london",
       
