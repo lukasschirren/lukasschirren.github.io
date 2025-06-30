@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "post-mapping-traffic-camera-blind-spots-near-imperial-college-london",
       
         title: "Mapping Traffic Camera Blind Spots Near Imperial College London",
