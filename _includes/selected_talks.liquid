@@ -1,21 +1,21 @@
 <!-- Selected talks include for homepage -->
-{% assign recent_talks = site.data.talks | sort: "date" | reverse | slice: 0, 3 %}
+{% assign recent_talks = site.data.talks | sort: "sort_date" | reverse | slice: 0, 3 %}
 
 <div class="selected-talks">
   {% for talk in recent_talks %}
     <div class="talk-item">
       <p>
-        <strong>{{ talk.date }}</strong>. 
+        {{ talk.date }}. 
         {% if talk.title %}
           {% if talk.slides %}
-            <a href="{{ talk.slides }}" target="_blank">{{ talk.title }}</a>
+            <a href="{{ talk.slides }}" target="_blank" style="color: var(--global-theme-color);">{{ talk.title }}</a>
           {% else %}
-            {{ talk.title }}
+            <span style="color: var(--global-theme-color);">{{ talk.title }}</span>
           {% endif %}
         {% endif %}
         {% if talk.venue %}
-          <em>{{ talk.venue }}</em>{% if talk.location %}, {{ talk.location }}{% endif %}.
-        {% endif %}
+          . Held at <em>{{ talk.venue }}</em>{% if talk.location %} in {{ talk.location }}{% endif %}
+        {% endif %}.
       </p>
     </div>
   {% endfor %}
