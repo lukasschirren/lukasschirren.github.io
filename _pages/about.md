@@ -25,9 +25,16 @@ latest_posts:
 ---
 
 ## About me
-My research interests span system modelling, optimisation, operations research, and ML with a strong focus on real-world energy challenges. I aim to apply machine learning to enhance energy system models through advanced data preprocessing, hybrid modelling, and applications for energy resilience.
+I am a scientist at Imperial College London in the deparment of Chemical Engineering, supervised by Prof. <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>.
+My research interests span **energy system modelling, operations research, sensitivity analysis, and machine learning** with a strong focus on real-world energy challenges. I aim to apply machine learning to enhance energy system models through advanced data preprocessing, hybrid modelling, and applications for energy resilience.
+My current research projects:
 
-My current projects cover industrial decarbonisation (green hydrogen for ammonia/steel) in _Ukraine_, hydropower-based hydrogen production in _Lao PDR_ and _Nepal_. 
+- **Industrial decarbonisation in Ukraine:**
+Modelling green hydrogen integration for ammonia and steel production in Ukraine using the open-source [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur) model, with a focus on sector coupling and risk-aware infrastructure planning to address the unique challenges of decarbonising heavy industry.
+
+- **Geospatial Analysis of Commodity Production Costs:**
+Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_.
+
 
 ##### Education
 
