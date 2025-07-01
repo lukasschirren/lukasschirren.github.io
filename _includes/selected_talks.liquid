@@ -5,14 +5,7 @@
   {% for talk in recent_talks %}
     <div class="talk-item">
       <p>
-        {{ talk.date }}. 
-        {% if talk.title %}
-          {% if talk.slides %}
-            <a href="{{ talk.slides }}" target="_blank"><strong>{{ talk.title }}</strong></a>
-          {% else %}
-            <strong>{{ talk.title }}</strong>
-          {% endif %}
-        {% endif %}{% if talk.venue %}. Held at <em>{{ talk.venue }}</em>{% if talk.location %} in {{ talk.location }}{% endif %}{% endif %}.
+        {{ talk.date }}.{% if talk.title %} {% if talk.slides %}<a href="{{ talk.slides }}" target="_blank"><strong>{{ talk.title }}</strong></a>{% else %}<strong>{{ talk.title }}</strong>{% endif %}{% endif %}{% if talk.venue %}. Held at <em>{{ talk.venue }}</em>{% if talk.location %} in {{ talk.location }}{% endif %}{% endif %}.
       </p>
     </div>
   {% endfor %}
