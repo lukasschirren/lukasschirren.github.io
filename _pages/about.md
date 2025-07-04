@@ -34,7 +34,7 @@ My research interests span **energy system modelling, operations research, sensi
 Modelling green hydrogen integration for ammonia and steel production in Ukraine using the open-source [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur) model, with a focus on sector coupling and risk-aware infrastructure planning to address the unique challenges of decarbonising heavy industry.
 
 - **Machine learning for energy system data:**
-Developing ML models for advanced preprocessing and improved prediction, capturing nonlinear effects, and addressing data scarcity. Currently exploring the application of ML to better understand solar PV generation losses during high temperatures and to estimate hydraulic head at existing hydropower sites.
+Developing ML models for advanced preprocessing and improved prediction, capturing nonlinear effects, and addressing data scarcity. Currently exploring the application of ML to better capture solar PV generation losses during high temperatures and to estimate hydraulic head at existing hydropower sites.
 
 - **Geospatial Analysis of Commodity Production Costs:**
 Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_.
