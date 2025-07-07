@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 ## About me
-I am a scientist at Imperial College London in the deparment of Chemical Engineering, supervised by Prof. <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>.
+I am a scientist at Imperial College London in the deparment of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>.
 My research interests span **energy system modelling, operations research, sensitivity analysis, and machine learning** with a strong focus on real-world energy challenges. I aim to apply machine learning to enhance energy system models through advanced data preprocessing, hybrid modelling, and applications for energy resilience.
 
 ##### Current Research Projects
@@ -34,7 +34,7 @@ My research interests span **energy system modelling, operations research, sensi
 Modelling green hydrogen integration for ammonia and steel production in Ukraine using the open-source [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur) model, with a focus on sector coupling and risk-aware infrastructure planning to address the unique challenges of decarbonising heavy industry. This is part of the [SHIELD](https://epg.eng.ox.ac.uk/shield/) project.
 
 - **Machine learning for energy system data:**
-Developing ML models for advanced preprocessing and improved prediction, capturing nonlinear effects, and addressing data scarcity. Currently exploring the application of ML to better understand solar PV generation losses during high temperatures and to estimate hydraulic head at existing hydropower sites.
+Developing ML models for advanced preprocessing and improved prediction, capturing nonlinear effects, and addressing data scarcity. Currently exploring the application of ML to better capture solar PV generation losses during high temperatures and to estimate hydraulic head at existing hydropower sites.
 
 - **Geospatial Analysis of Commodity Production Costs:**
 Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_.
