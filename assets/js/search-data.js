@@ -77,7 +77,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250201/";
-            },},{id: "news-attended-the-international-energy-workshop-2025-in-japan",
+            },},{id: "news-attended-the-3rd-annual-ukrainian-energy-transition-forum-in-london",
+          title: 'Attended the 3rd Annual Ukrainian Energy Transition Forum in London.',
+          description: "",
+          section: "News",},{id: "news-attended-the-international-energy-workshop-2025-in-japan",
           title: 'Attended the International Energy Workshop 2025 in Japan',
           description: "",
           section: "News",handler: () => {
