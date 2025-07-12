@@ -37,7 +37,7 @@ Modelling green hydrogen integration for ammonia and steel production in Ukraine
 Developing ML models for advanced preprocessing and improved prediction, capturing nonlinear effects, and addressing data scarcity. Currently exploring the application of ML to better capture solar PV generation losses during high temperatures and to estimate hydraulic head at existing hydropower sites.
 
 - **Geospatial Analysis of Commodity Production Costs:**
-Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_.
+Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_. This is part of the [CCG](https://climatecompatiblegrowth.com/) project.
 
 
 ##### Education
