@@ -21,7 +21,6 @@ github_username: lukasschirren # your GitHub user name
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
 linkedin_username: lukas-schirren # your LinkedIn user name
-cv_pdf: /assets/pdf/CV_Schirren.pdf # path to your CV PDF file
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -32,6 +31,7 @@ cv_pdf: /assets/pdf/CV_Schirren.pdf # path to your CV PDF file
 # research_gate_profile: # your profile on ResearchGate
 # rss_icon: true # set to true to show the RSS icon
 scholar_userid: pWOByN0AAAAJ # your Google Scholar ID
+cv_pdf: /assets/pdf/CV_Schirren.pdf # path to your CV PDF file
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
