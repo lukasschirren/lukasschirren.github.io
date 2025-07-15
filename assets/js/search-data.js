@@ -80,8 +80,8 @@ ninja.data = [{
             },},{id: "news-attended-the-3rd-annual-ukrainian-energy-transition-forum-in-london",
           title: 'Attended the 3rd Annual Ukrainian Energy Transition Forum in London.',
           description: "",
-          section: "News",},{id: "news-attended-the-international-energy-workshop-2025-in-japan",
-          title: 'Attended the International Energy Workshop 2025 in Japan',
+          section: "News",},{id: "news-presented-at-the-international-energy-workshop-2025-in-japan",
+          title: 'Presented at the International Energy Workshop 2025 in Japan',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250610/";
