@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 ## About me
-I am a scientist at Imperial College London in the deparment of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>.
+I am a scientist at Imperial College London in the department of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>.
 My research interests span **energy system modelling, operations research, sensitivity analysis, and machine learning** with a strong focus on real-world energy challenges. I aim to apply machine learning to enhance energy system models through advanced data preprocessing, hybrid modelling, and applications for energy resilience.
 
 ##### Current Research Projects
