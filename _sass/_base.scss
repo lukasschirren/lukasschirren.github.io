@@ -1367,14 +1367,3 @@ ninja-keys::part(ninja-input-wrapper) {
     padding-bottom: 0.5rem;
   }
 }
-
-// Social icons size adjustment
-.social .contact-icons {
-  a {
-    font-size: 0.7rem; // Reduce by 30% (from default ~1rem to 0.7rem)
-    
-    i {
-      font-size: inherit;
-    }
-  }
-}
