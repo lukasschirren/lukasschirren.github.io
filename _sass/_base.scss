@@ -1387,18 +1387,21 @@ ninja-keys::part(ninja-input-wrapper) {
 .talks .map-container,
 .map-container {
   margin: 2rem 0 1rem 0;
-  padding: 1rem;
-  background: var(--global-card-bg-color);
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  border: 1px solid var(--global-divider-color);
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  width: 100%;
 
   img {
     width: 100%;
     height: auto;
-    max-width: 100%;
+    max-width: none;
     display: block;
-    border-radius: 4px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
   }
 }
 
@@ -1425,7 +1428,7 @@ ninja-keys::part(ninja-input-wrapper) {
   .talks .map-container,
   .map-container {
     margin: 1.5rem 0 0.5rem 0;
-    padding: 0.75rem;
+    padding: 0;
   }
   
   .map-caption {
@@ -1434,9 +1437,4 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-/* Dark mode support for presentation map */
-[data-theme="dark"] .map-container {
-  background: var(--global-card-bg-color);
-  box-shadow: 0 2px 8px rgba(255,255,255,0.1);
-  border: 1px solid var(--global-divider-color);
-}
+/* Simple, clean map - no dark mode overrides needed */
