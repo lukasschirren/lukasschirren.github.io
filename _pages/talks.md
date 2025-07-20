@@ -28,3 +28,14 @@ nav_order: 1
 {% endfor %}
 
 </div>
+
+<!-- Presentation Locations Map -->
+<div class="presentation-map-section">
+  <h3>Presentation Locations</h3>
+  <div class="map-container">
+    <img src="{{ '/assets/img/presentation_map.svg' | relative_url }}" 
+         alt="World map showing presentation locations" 
+         class="presentation-map-img">
+  </div>
+  <p class="map-caption">World map showing presentation locations across 4 countries: Germany, Japan, Laos, United Kingdom. Total presentations: 4 (1 upcoming).</p>
+</div>
