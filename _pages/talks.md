@@ -20,10 +20,7 @@ nav_order: 1
   {% for talk in talks_sorted %}
     <div class="talk-entry">
       <p>
-        {% assign talk_date = talk.sort_date | date: "%s" %}
-        {% assign current_date = "now" | date: "%s" %}
-        {% assign is_upcoming = talk_date > current_date %}
-        {{ talk.date }}.{% if talk.title %} {% if talk.slides %}<a href="{{ talk.slides }}" target="_blank"><strong>{{ talk.title }}</strong></a>{% else %}<strong>{{ talk.title }}</strong>{% endif %}{% endif %}{% if is_upcoming %} <em>(upcoming)</em>{% endif %}{% if talk.description %}. {{ talk.description }}{% endif %}{% if talk.venue %}. {% if is_upcoming %}To be held at{% else %}Held at{% endif %} <em>{{ talk.venue }}</em>{% if talk.location %} in {{ talk.location }}{% endif %}{% endif %}{% if talk.video %}. A video recording is available on <a href="{{ talk.video }}" target="_blank">YouTube</a>{% endif %}.
+        {{ talk.date }}.{% if talk.title %} {% if talk.slides %}<a href="{{ talk.slides }}" target="_blank"><strong>{{ talk.title }}</strong></a>{% else %}<strong>{{ talk.title }}</strong>{% endif %}{% endif %}{% if talk.status == "upcoming" %} <em>(upcoming)</em>{% endif %}{% if talk.description %}. {{ talk.description }}{% endif %}{% if talk.venue %}. {% if talk.status == "upcoming" %}To be held at{% else %}Held at{% endif %} <em>{{ talk.venue }}</em>{% if talk.location %} in {{ talk.location }}{% endif %}{% endif %}{% if talk.video %}. A video recording is available on <a href="{{ talk.video }}" target="_blank">YouTube</a>{% endif %}.
       </p>
     </div>
   {% endfor %}
