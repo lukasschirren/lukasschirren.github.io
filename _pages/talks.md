@@ -34,4 +34,4 @@ nav_order: 1
   <img src="{{ '/assets/img/presentation_map.svg' | relative_url }}" 
        alt="World map showing presentation locations">
 </div>
-<p class="map-caption">World map showing presentation locations as 2025.</p>
+<p class="map-caption">World map showing presentation locations.</p>
