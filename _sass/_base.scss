@@ -1437,7 +1437,7 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-/* Theme-responsive map switching */
+/* Theme-responsive map switching - comprehensive approach */
 .talks-map-light {
   display: block;
 }
@@ -1446,13 +1446,44 @@ ninja-keys::part(ninja-input-wrapper) {
   display: none;
 }
 
-/* Show dark map in dark theme, hide light map */
-[data-theme="dark"] .talks-map-light {
+/* Al-folio dark mode selectors */
+[data-theme="dark"] .talks-map-light,
+.dark-theme .talks-map-light,
+body.dark-theme .talks-map-light,
+html[data-theme="dark"] .talks-map-light {
   display: none;
 }
 
-[data-theme="dark"] .talks-map-dark {
+[data-theme="dark"] .talks-map-dark,
+.dark-theme .talks-map-dark,
+body.dark-theme .talks-map-dark,
+html[data-theme="dark"] .talks-map-dark {
   display: block;
+}
+
+/* Alternative: CSS prefers-color-scheme approach */
+@media (prefers-color-scheme: dark) {
+  .talks-map-light {
+    display: none;
+  }
+  .talks-map-dark {
+    display: block;
+  }
+}
+
+/* Override for light theme when explicitly set */
+[data-theme="light"] .talks-map-light,
+.light-theme .talks-map-light,
+body.light-theme .talks-map-light,
+html[data-theme="light"] .talks-map-light {
+  display: block !important;
+}
+
+[data-theme="light"] .talks-map-dark,
+.light-theme .talks-map-dark,
+body.light-theme .talks-map-dark,
+html[data-theme="light"] .talks-map-dark {
+  display: none !important;
 }
 
 /* Dark mode container styling */
