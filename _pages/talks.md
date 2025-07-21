@@ -30,10 +30,13 @@ nav_order: 1
 </div>
 
 
-<!-- Presentation Locations Map - Simplified (Single Map) -->
+<!-- Presentation Locations Map - Theme Responsive -->
 <div class="map-container">
   <img src="{{ '/assets/img/presentation_map_light.svg' | relative_url }}" 
        alt="World map showing presentation locations" 
-       class="talks-map">
+       class="talks-map talks-map-light">
+  <img src="{{ '/assets/img/presentation_map_dark.svg' | relative_url }}" 
+       alt="World map showing presentation locations" 
+       class="talks-map talks-map-dark">
 </div>
 <p class="map-caption">World map showing presentation locations across 4 countries: Germany, Japan, Laos, United Kingdom.</p>
