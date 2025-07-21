@@ -30,13 +30,13 @@ nav_order: 1
 </div>
 
 
-<!-- Presentation Locations Map - Theme Responsive -->
+<!-- Interactive Presentation Locations Map - Theme Responsive -->
 <div class="map-container">
-  <img src="{{ '/assets/img/presentation_map_light.svg' | relative_url }}" 
-       alt="World map showing presentation locations" 
+  <img src="{{ '/assets/img/presentation_map_light.svg' | relative_url }}"
+       alt="Interactive world map showing presentation locations. Hover over dots for talk details."
        class="talks-map talks-map-light">
-  <img src="{{ '/assets/img/presentation_map_dark.svg' | relative_url }}" 
-       alt="World map showing presentation locations" 
+  <img src="{{ '/assets/img/presentation_map_dark.svg' | relative_url }}"
+       alt="Interactive world map showing presentation locations. Hover over dots for talk details."
        class="talks-map talks-map-dark">
 </div>
-<p class="map-caption">World map showing presentation locations across 4 countries: Germany, Japan, Laos, United Kingdom.</p>
+<p class="map-caption">💡 World map showing presentation locations. Hover over the dots to see talk details. </p>
