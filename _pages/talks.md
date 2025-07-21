@@ -39,4 +39,4 @@ nav_order: 1
        alt="Interactive world map showing presentation locations. Hover over dots for talk details."
        class="talks-map talks-map-dark">
 </div>
-<p class="map-caption">💡 World map showing presentation locations. Hover over the dots to see talk details. </p>
+<p class="map-caption">World map showing presentation locations.</p>
