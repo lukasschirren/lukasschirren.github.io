@@ -1437,4 +1437,25 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-/* Simple, clean map - no dark mode overrides needed */
+/* Theme-responsive map switching */
+.talks-map-light {
+  display: block;
+}
+
+.talks-map-dark {
+  display: none;
+}
+
+/* Show dark map in dark theme, hide light map */
+[data-theme="dark"] .talks-map-light {
+  display: none;
+}
+
+[data-theme="dark"] .talks-map-dark {
+  display: block;
+}
+
+/* Dark mode container styling */
+[data-theme="dark"] .map-container {
+  background: transparent;
+}
