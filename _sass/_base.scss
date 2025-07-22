@@ -1437,7 +1437,15 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-/* Theme-responsive map switching - al-folio optimized */
+/* Theme-responsive map switching - al-folio optimized with mobile fixes */
+.talks-map {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Default: show light theme map */
 .talks-map-light {
   display: block;
 }
@@ -1446,30 +1454,69 @@ ninja-keys::part(ninja-input-wrapper) {
   display: none;
 }
 
-/* Al-folio dark mode switching using data-theme attribute */
+/* Al-folio dark mode switching using data-theme attribute - HIGHEST PRIORITY */
 html[data-theme="dark"] .talks-map-light {
-  display: none;
+  display: none !important;
 }
 
 html[data-theme="dark"] .talks-map-dark {
-  display: block;
+  display: block !important;
 }
 
-/* Fallback for browsers that support prefers-color-scheme */
+html[data-theme="light"] .talks-map-light {
+  display: block !important;
+}
+
+html[data-theme="light"] .talks-map-dark {
+  display: none !important;
+}
+
+/* Fallback for browsers that support prefers-color-scheme - LOWER PRIORITY */
 @media (prefers-color-scheme: dark) {
-  .talks-map-light {
+  /* Only apply if no explicit theme is set */
+  html:not([data-theme]) .talks-map-light {
     display: none;
   }
-  .talks-map-dark {
+  html:not([data-theme]) .talks-map-dark {
     display: block;
   }
+}
+
+/* Mobile-specific fixes */
+@media (max-width: 768px) {
+  .map-container {
+    position: relative;
+    overflow: hidden;
+  }
   
-  /* Override when light theme is explicitly set */
-  html[data-theme="light"] .talks-map-light {
+  .talks-map {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /* Ensure only one map shows on mobile */
+  html[data-theme="dark"] .talks-map-light,
+  html.dark .talks-map-light,
+  .dark-theme .talks-map-light {
+    display: none !important;
+  }
+  
+  html[data-theme="dark"] .talks-map-dark,
+  html.dark .talks-map-dark,
+  .dark-theme .talks-map-dark {
     display: block !important;
   }
   
-  html[data-theme="light"] .talks-map-dark {
+  html[data-theme="light"] .talks-map-light,
+  html.light .talks-map-light,
+  .light-theme .talks-map-light {
+    display: block !important;
+  }
+  
+  html[data-theme="light"] .talks-map-dark,
+  html.light .talks-map-dark,
+  .light-theme .talks-map-dark {
     display: none !important;
   }
 }

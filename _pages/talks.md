@@ -30,13 +30,15 @@ nav_order: 1
 </div>
 
 
-<!-- Interactive Presentation Locations Map - Theme Responsive -->
+<!-- Interactive Presentation Locations Map - Theme Responsive with Mobile Fix -->
 <div class="map-container">
   <img src="{{ '/assets/img/presentation_map_light.svg' | relative_url }}"
        alt="Interactive world map showing presentation locations. Hover over dots for talk details."
-       class="talks-map talks-map-light">
+       class="talks-map talks-map-light"
+       loading="lazy">
   <img src="{{ '/assets/img/presentation_map_dark.svg' | relative_url }}"
        alt="Interactive world map showing presentation locations. Hover over dots for talk details."
-       class="talks-map talks-map-dark">
+       class="talks-map talks-map-dark"
+       loading="lazy">
 </div>
-<p class="map-caption">World map showing presentation locations.</p>
+<p class="map-caption">Interactive world map showing presentation locations. Hover over dots for talk details.</p>
