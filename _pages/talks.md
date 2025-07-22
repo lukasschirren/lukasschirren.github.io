@@ -41,4 +41,4 @@ nav_order: 1
        class="talks-map talks-map-dark"
        loading="lazy">
 </div>
-<p class="map-caption">Interactive world map showing presentation locations. Hover over dots for talk details.</p>
+<p class="map-caption">World map showing presentation locations.</p>
