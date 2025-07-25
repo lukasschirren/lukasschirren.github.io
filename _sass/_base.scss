@@ -1348,17 +1348,17 @@ ninja-keys::part(ninja-input-wrapper) {
 .talks {
   .talk-entry {
     margin-bottom: 1.5rem;
-    
+
     p {
       margin-bottom: 0.5rem;
       line-height: 1.6;
     }
-    
+
     strong {
       font-weight: 600;
     }
   }
-  
+
   h3 {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -1419,18 +1419,18 @@ ninja-keys::part(ninja-input-wrapper) {
   .presentation-map-section {
     margin: 2rem 0 1rem 0;
     padding: 1.5rem 0;
-    
+
     h3 {
       margin-bottom: 1rem;
     }
   }
-  
+
   .talks .map-container,
   .map-container {
     margin: 1.5rem 0 0.5rem 0;
     padding: 0;
   }
-  
+
   .map-caption {
     font-size: 0.8rem;
     margin: 0.5rem 0 1.5rem 0;
@@ -1488,32 +1488,32 @@ html[data-theme="light"] .talks-map-dark {
     position: relative;
     overflow: hidden;
   }
-  
+
   .talks-map {
     width: 100%;
     height: auto;
     max-width: 100%;
   }
-  
+
   /* Ensure only one map shows on mobile */
   html[data-theme="dark"] .talks-map-light,
   html.dark .talks-map-light,
   .dark-theme .talks-map-light {
     display: none !important;
   }
-  
+
   html[data-theme="dark"] .talks-map-dark,
   html.dark .talks-map-dark,
   .dark-theme .talks-map-dark {
     display: block !important;
   }
-  
+
   html[data-theme="light"] .talks-map-light,
   html.light .talks-map-light,
   .light-theme .talks-map-light {
     display: block !important;
   }
-  
+
   html[data-theme="light"] .talks-map-dark,
   html.light .talks-map-dark,
   .light-theme .talks-map-dark {

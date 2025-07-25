@@ -9,11 +9,11 @@ toc:
   sidebar: left
 ---
 
-## The Idea  
+## The Idea
 
-A while ago, I was watching *The Capture*—a BBC series (IMDB 8/10) about surveillance and digital manipulation. At one point, a character pulls up a map of CCTV blind spots in London. That got me thinking: how hard would it be to map those gaps myself?  
+A while ago, I was watching _The Capture_—a BBC series (IMDB 8/10) about surveillance and digital manipulation. At one point, a character pulls up a map of CCTV blind spots in London. That got me thinking: how hard would it be to map those gaps myself?
 
-London has one of the most extensive CCTV networks in the world, with traffic cameras monitoring key roads and junctions. For most cameras, you can’t get their exact location. However, TfL has jam cameras.  
+London has one of the most extensive CCTV networks in the world, with traffic cameras monitoring key roads and junctions. For most cameras, you can’t get their exact location. However, TfL has jam cameras.
 
 I started looking into it and found a website visualizing [TfL’s traffic cameras](https://www.tfljamcams.net/), which displayed locations and live feeds across the city. However, the live feed was shut down in September 2024 after a cyberattack ([TfL statement](https://tfl.gov.uk/campaign/cyber-security-incident)). Yeah. The feeds were gone, but the backend was still accessible, and I could retrieve the camera locations from the JSON file.
 
@@ -28,18 +28,19 @@ I started looking into it and found a website visualizing [TfL’s traffic camer
 ## Visualisation
 
 The locations of all TfL traffic cameras in London are visible here:
+
 <iframe src="https://lukasschirren.github.io/assets/maps/camera_map.html"
-        width="100%" height="600" style="border: none;"></iframe>  
+        width="100%" height="600" style="border: none;"></iframe>
 
-The final result is an interactive map of traffic camera coverage in Kensington. Cameras are shown as black dots, blue areas indicate visibility, and gray zones represent blind spots.  
+The final result is an interactive map of traffic camera coverage in Kensington. Cameras are shown as black dots, blue areas indicate visibility, and gray zones represent blind spots.
+
 <iframe src="https://lukasschirren.github.io/assets/maps/kensington_blind_spot_map.html"
-        width="100%" height="600" style="border: none;"></iframe>  
-
+        width="100%" height="600" style="border: none;"></iframe>
 
 ---
 
 ## Code
 
-The full implementation is available on GitHub:  
+The full implementation is available on GitHub:
 
-📍 [GitHub: jamcam-blind-spot](https://github.com/lukasschirren/jamcam-blind-spot)  
+📍 [GitHub: jamcam-blind-spot](https://github.com/lukasschirren/jamcam-blind-spot)

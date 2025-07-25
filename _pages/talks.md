@@ -2,7 +2,7 @@
 layout: page
 permalink: /talks/
 title: talks
-description: 
+description:
 nav: true
 nav_order: 1
 ---
@@ -14,6 +14,7 @@ nav_order: 1
 {% assign talks_by_year = site.data.talks | group_by: "year" | reverse %}
 
 {% for year_group in talks_by_year %}
+
   <h3>{{ year_group.name }}</h3>
   
   {% assign talks_sorted = year_group.items | sort: "sort_date" | reverse %}
@@ -28,7 +29,6 @@ nav_order: 1
 {% endfor %}
 
 </div>
-
 
 <!-- Interactive Presentation Locations Map - Theme Responsive with Mobile Fix -->
 <div class="map-container">
