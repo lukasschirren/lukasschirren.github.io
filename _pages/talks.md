@@ -9,6 +9,18 @@ nav_order: 1
 
 <!-- _pages/talks.md -->
 
+<!-- Interactive Presentation Locations Map - Theme Responsive with Mobile Fix -->
+<div class="map-container">
+  <img src="{{ '/assets/img/presentation_map_light.svg' | relative_url }}"
+       alt="Interactive world map showing presentation locations. Hover over dots for talk details."
+       class="talks-map talks-map-light"
+       loading="lazy">
+  <img src="{{ '/assets/img/presentation_map_dark.svg' | relative_url }}"
+       alt="Interactive world map showing presentation locations. Hover over dots for talk details."
+       class="talks-map talks-map-dark"
+       loading="lazy">
+</div>
+
 <div class="talks">
 
 {% assign talks_by_year = site.data.talks | group_by: "year" | reverse %}
@@ -29,16 +41,3 @@ nav_order: 1
 {% endfor %}
 
 </div>
-
-<!-- Interactive Presentation Locations Map - Theme Responsive with Mobile Fix -->
-<div class="map-container">
-  <img src="{{ '/assets/img/presentation_map_light.svg' | relative_url }}"
-       alt="Interactive world map showing presentation locations. Hover over dots for talk details."
-       class="talks-map talks-map-light"
-       loading="lazy">
-  <img src="{{ '/assets/img/presentation_map_dark.svg' | relative_url }}"
-       alt="Interactive world map showing presentation locations. Hover over dots for talk details."
-       class="talks-map talks-map-dark"
-       loading="lazy">
-</div>
-<p class="map-caption">World map showing presentation locations.</p>
