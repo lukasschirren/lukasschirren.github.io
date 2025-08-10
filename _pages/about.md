@@ -31,7 +31,7 @@ I am a researcher at Imperial College London in the department of Chemical Engin
 ##### Current Research Projects
 
 - **Reconstruction of Power and Industry in Ukraine:**
-  Modelling the reconstruction of Ukraine’s power sector and its linked industries, with a focus on low-carbon steel and fertiliser production using electricity- and hydrogen-based processes. Tailoring [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur) for Ukraine through the integration of sector coupling and risk-aware infrastructure planning. This is part of the [SHIELD](https://epg.eng.ox.ac.uk/shield/) project.
+  Modelling the reconstruction of Ukraine’s power sector and its linked industries, with a focus on low-carbon steel and fertiliser production using electricity- and hydrogen-based processes. This requires advancing  [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur) for Ukraine by integrating sector coupling and country-specific parameters. Also working on stochastic optimisation to capture reconstruction uncertainties linked to the EU CBAM. This is part of the [SHIELD](https://epg.eng.ox.ac.uk/shield/) project.
 
 - **Machine Learning for Energy Systems:**
   Developing ML models for advanced preprocessing and improved prediction, capturing nonlinear effects, and addressing data scarcity. Currently exploring the application of ML to better capture solar PV generation losses during high temperatures.
