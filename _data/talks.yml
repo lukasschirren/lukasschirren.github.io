@@ -4,6 +4,14 @@
 # sort_date is used for chronological ordering (format: YYYY-MM-DD)
 
 - year: 2025
+  date: "October 9"
+  sort_date: "2025-10-09"
+  title: "Ukraine's Decarbonised Recovery: Opportunities for Hydrogen in Low-Carbon Steel and Fertiliser Production"
+  venue: "World Hydrogen Week"
+  location: "Copenhagen, Denmark"
+  status: "upcoming"
+
+- year: 2025
   date: "September 1"
   sort_date: "2025-09-01"
   title: "Using Machine Learning for Nonlinear PV Temperature Loss Assessment in Energy System Modelling"
