@@ -26,7 +26,7 @@
   title: "Using Machine Learning for Nonlinear PV Temperature Loss Assessment in Energy System Modelling"
   venue: "Ellis Summer School: AI for Earth and Climate Sciences"
   location: "Jena, Germany"
-  label: "(poster)"
+  # label: "(poster)"
 
 - year: 2025
   date: "June 12"
