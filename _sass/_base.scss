@@ -1368,6 +1368,22 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
+// Talk label styling
+.talk-label {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
+  margin-left: 0.25rem;
+}
+
+// Also add label styling for selected talks on homepage
+.selected-talks .talk-label {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
+  margin-left: 0.25rem;
+}
+
 /* Presentation Map Section */
 .presentation-map-section {
   margin: 3rem 0 2rem 0;

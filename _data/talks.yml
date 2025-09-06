@@ -1,6 +1,7 @@
 # Talks data
-# Each talk should have: year, date, title, description (optional), venue, location (optional), slides (optional), video (optional), status (optional)
+# Each talk should have: year, date, title, description (optional), venue, location (optional), slides (optional), video (optional), status (optional), label (optional)
 # status can be: "upcoming" for future talks, leave blank for past talks
+# label can be used to indicate presentation type like "(poster)", "(keynote)", etc., leave blank for regular talks
 # sort_date is used for chronological ordering (format: YYYY-MM-DD)
 
 - year: 2025
@@ -17,7 +18,7 @@
   title: "Using Machine Learning for Nonlinear PV Temperature Loss Assessment in Energy System Modelling"
   venue: "Ellis Summer School: AI for Earth and Climate Sciences"
   location: "Jena, Germany"
-  status: "upcoming"
+  label: "(poster)"
 
 - year: 2025
   date: "June 12"

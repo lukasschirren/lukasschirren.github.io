@@ -15,6 +15,9 @@
             <strong>{{ talk.title }}</strong>
           {%- endif -%}
         {%- endif -%}
+        {%- if talk.label %}
+          <span class="talk-label">{{ talk.label }}</span>
+        {%- endif -%}
         {%- if talk.status == 'upcoming' %}
           <em>(upcoming)</em>
         {%- endif -%}
