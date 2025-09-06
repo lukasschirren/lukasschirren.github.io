@@ -5,6 +5,14 @@
 # sort_date is used for chronological ordering (format: YYYY-MM-DD)
 
 - year: 2025
+  date: "November 18"
+  sort_date: "2025-11-18"
+  title: "Stochastic Optimisation of Ukraine’s Power Sector Reconstruction under Future Policy Uncertainty"
+  venue: "Decision Making Under Deep Uncertainty - Annual Meeting"
+  location: "London"
+  status: "upcoming"
+
+- year: 2025
   date: "October 9"
   sort_date: "2025-10-09"
   title: "Ukraine's Decarbonised Recovery: Opportunities for Hydrogen in Low-Carbon Steel and Fertiliser Production"
@@ -13,8 +21,8 @@
   status: "upcoming"
 
 - year: 2025
-  date: "September 3"
-  sort_date: "2025-09-03"
+  date: "September 4"
+  sort_date: "2025-09-04"
   title: "Using Machine Learning for Nonlinear PV Temperature Loss Assessment in Energy System Modelling"
   venue: "Ellis Summer School: AI for Earth and Climate Sciences"
   location: "Jena, Germany"
