@@ -1,4 +1,8 @@
-<!-- Selected talks include for homepage -->
+<!-- Selected talks        {% if talk.venue -%}
+          . {% if talk.status == 'upcoming' %}To be held at{% else %}Held at{% endif %}
+          <em>{{ talk.venue }}</em>
+          {%- if talk.location %} in {{ talk.location }}{% endif -%}
+        {% endif %}.ude for homepage -->
 {% assign recent_talks = site.data.talks | sort: 'sort_date' | reverse | slice: 0, 3 %}
 
 <div class="selected-talks">
