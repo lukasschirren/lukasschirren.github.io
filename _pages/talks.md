@@ -34,7 +34,7 @@ nav_order: 1
     <div class="talk-entry"> 
       <p>
         {{ talk.date }}.
-        {%- if talk.title -%}
+        {%- if talk.title %} 
           {%- if talk.slides -%}
             <a href="{{ talk.slides }}" target="_blank"><strong>{{ talk.title }}</strong></a>
           {%- else -%}
