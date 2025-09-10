@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-blog",
-          title: "Blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "post-mapping-traffic-camera-blind-spots-near-imperial-college-london",
       
         title: "Mapping Traffic Camera Blind Spots Near Imperial College London",
@@ -85,7 +78,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250610/";
-            },},{
+            },},{id: "news-attended-the-ellis-summer-school-ai-for-earth-and-climate-sciences-in-jena-germany",
+          title: 'Attended the ELLIS Summer School: AI for Earth and Climate Sciences in Jena,...',
+          description: "",
+          section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
