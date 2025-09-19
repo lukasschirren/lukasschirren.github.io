@@ -27,7 +27,7 @@ latest_posts:
 ## About me
 
 I am a researcher at Imperial College London in the department of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>. My work focuses on open-source energy system modelling with an emphasis on deep decarbonisation and energy resilience. I am particularly interested in leveraging uncertainty quantification, geospatial analysis, and machine learning to address real-world energy challenges.
-Part of [CCG](https://climatecompatiblegrowth.com/team/lukas-schirren/) and [SHIELD](https://epg.eng.ox.ac.uk/shield/team/).
+Part of [CCG](https://climatecompatiblegrowth.com/team/lukas-schirren/), [SHIELD](https://epg.eng.ox.ac.uk/shield/team/), and [HI-ACT](https://hi-act.ac.uk/team/).
 
 ##### Current Research Projects
 
