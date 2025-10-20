@@ -1,17 +1,5 @@
 <!-- Selec      <p>
-        {{ talk.date }}.
-        {% if talk.title %}
-          {% if talk.slides %}
-            <a href="{{ talk.slides }}" target="_blank">
-              <strong>{{ talk.title }}</strong>
-            </a>
-          {% else %}
-            <strong>{{ talk.title }}</strong>
-          {% endif %}
-        {% endif %}
-        {%- if talk.label %} <em>{{ talk.label }}</em>{% endif -%}
-        {%- if talk.status == 'upcoming' %} <em>(upcoming)</em>{% endif -%}
-        {%- if talk.venue %}. {% if talk.status == 'upcoming' %}To be held at{% else %}Held at{% endif %} <em>{{ talk.venue }}</em>{%- if talk.location %} in {{ talk.location }}{% endif -%}{%- endif %}.
+        {{ talk.date }}.{% if talk.title %} {% if talk.slides %}<a href="{{ talk.slides }}" target="_blank"><strong>{{ talk.title }}</strong></a>{% else %}<strong>{{ talk.title }}</strong>{% endif %}{% endif %}{% if talk.label %} <em>{{ talk.label }}</em>{% endif %}{% if talk.status == 'upcoming' %} <em>(upcoming)</em>{% endif %}{% if talk.venue %}. {% if talk.status == 'upcoming' %}To be held at{% else %}Held at{% endif %} <em>{{ talk.venue }}</em>{% if talk.location %} in {{ talk.location }}{% endif %}{% endif %}.
       </p>% if talk.venue -%}
           . {% if talk.status == 'upcoming' %}To be held at{% else %}Held at{% endif %}
           <em>{{ talk.venue }}</em>
