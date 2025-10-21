@@ -39,8 +39,3 @@ Part of [CCG](https://climatecompatiblegrowth.com/team/lukas-schirren/), [SHIELD
 
 - **Geospatial Analysis of Commodity Production Costs:**
   Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_. This is part of the [CCG](https://climatecompatiblegrowth.com/) project.
-
-##### Education
-
-- MSc Sustainble Energy Futures, Imperial College London
-- BSc Industrial Engineering, Technical University of Berlin
