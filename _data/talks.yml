@@ -6,7 +6,7 @@
 
 - year: 2025
   date: "November 18"
-  sort_date: "2025-11-18"
+  sort_date: "2025-11-20"
   title: "Stochastic Optimisation of Ukraine’s Power Sector Reconstruction under Future Policy Uncertainty"
   venue: "Decision Making Under Deep Uncertainty - Annual Meeting"
   location: "London"
@@ -25,7 +25,7 @@
   title: "Using Machine Learning for Nonlinear PV Temperature Loss Assessment in Energy System Modelling"
   venue: "Ellis Summer School: AI for Earth and Climate Sciences"
   location: "Jena, Germany"
-  # label: "(poster)"
+  label: "(poster)"
 
 - year: 2025
   date: "June 12"
