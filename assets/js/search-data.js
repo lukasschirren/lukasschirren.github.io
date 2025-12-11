@@ -81,6 +81,9 @@ ninja.data = [{
             },},{id: "news-attended-the-ellis-summer-school-ai-for-earth-and-climate-sciences-in-jena-germany",
           title: 'Attended the ELLIS Summer School: AI for Earth and Climate Sciences in Jena,...',
           description: "",
+          section: "News",},{id: "news-presented-at-the-annual-meeting-of-the-decision-making-under-deep-uncertainty-dmdu-in-london",
+          title: 'Presented at the annual meeting of the Decision Making Under Deep Uncertainty (DMDU)...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
