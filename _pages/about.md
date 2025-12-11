@@ -26,16 +26,16 @@ latest_posts:
 
 ## About me
 
-I am a researcher at Imperial College London in the department of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>. My work focuses on open-source energy system modelling with an emphasis on deep decarbonisation and energy resilience. I am particularly interested in leveraging uncertainty quantification, geospatial analysis, and machine learning to address real-world energy challenges.
+I am a researcher at Imperial College London in the department of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>. My work focuses on open-source energy system modelling with an emphasis on the decarbonisation of hard-to-abate sectors. Methodologically, I am particularly interested in combining uncertainty quantification, geospatial analysis, and machine learning to address real-world energy challenges.
 Part of [CCG](https://climatecompatiblegrowth.com/team/lukas-schirren/), [SHIELD](https://epg.eng.ox.ac.uk/shield/team/), and [HI-ACT](https://hi-act.ac.uk/team/).
 
 ##### Current Research Projects
 
 - **Reconstruction of Power and Industry in Ukraine:**
-  Modelling the reconstruction of Ukraine’s power sector and its linked industries, with a focus on low-carbon steel and fertiliser production using electricity- and hydrogen-based processes. This requires advancing [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur) for Ukraine by integrating sector coupling and country-specific parameters. Also working on stochastic optimisation to capture reconstruction uncertainties linked to the EU CBAM. This is part of the [SHIELD](https://epg.eng.ox.ac.uk/shield/) project.
+  Modelling short- and long-term reconstruction of Ukraine’s power sector and linked energy-intensive industries, extending [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur) for all sectors of Ukraine and country-specific parameters. Also working on evaluating the impact of the Carbon Border Adjustment Mechanism (CBAM) on Ukraine's power and steel sector. This is part of the [SHIELD](https://epg.eng.ox.ac.uk/shield/) project.
 
-- **Machine Learning for Energy Systems:**
-  Developing ML models for advanced preprocessing and improved prediction, capturing nonlinear effects, and addressing data scarcity. Currently exploring the application of ML to better capture solar PV generation losses during high temperatures.
+- **Defossilising Petrochemical Production:**
+  Analysing the global petrochemical industry with a focus on European value chains, exploring technology pathways, infrastructure needs, and policy instruments for defossilisation.
 
 - **Geospatial Analysis of Commodity Production Costs:**
   Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_. This is part of the [CCG](https://climatecompatiblegrowth.com/) project.

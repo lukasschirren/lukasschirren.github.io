@@ -2,7 +2,8 @@
 # Each talk should have: year, date, title, description (optional), venue, location (optional), slides (optional), video (optional), status (optional), label (optional)
 # status can be: "upcoming" for future talks, leave blank for past talks
 # label can be used to indicate presentation type like "(poster)", "(keynote)", etc., leave blank for regular talks
-# sort_date is used for chronological ordering (format: YYYY-MM-DD)
+# sort_date is used for chronological ordering (format: YYYY-MM-DD) 
+  # status: "upcoming"
 
 - year: 2025
   date: "November 18"
