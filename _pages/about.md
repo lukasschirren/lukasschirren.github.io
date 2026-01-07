@@ -26,7 +26,7 @@ latest_posts:
 
 ## About me
 
-I am a researcher at Imperial College London in the department of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>. My work focuses on open-source energy system modelling with an emphasis on the decarbonisation of hard-to-abate sectors. Methodologically, I am particularly interested in combining uncertainty quantification, geospatial analysis, and machine learning to address real-world energy challenges.
+I am a researcher at Imperial College London in the department of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>. My work focuses on open-source energy system modelling with an emphasis on the decarbonisation of hard-to-abate sectors and energy security.
 Part of [CCG](https://climatecompatiblegrowth.com/team/lukas-schirren/), [SHIELD](https://epg.eng.ox.ac.uk/shield/team/), and [HI-ACT](https://hi-act.ac.uk/team/).
 
 ##### Current Research Projects
@@ -36,6 +36,10 @@ Part of [CCG](https://climatecompatiblegrowth.com/team/lukas-schirren/), [SHIELD
 
 - **Defossilising Petrochemical Production:**
   Analysing the global petrochemical industry with a focus on European value chains, exploring technology pathways, infrastructure needs, and policy instruments for defossilisation.
+
+- **Spatial Battery Sitting under Renewable Cost Uncertainty:**
+  Quantifying the spatial patterns of battery capacities under future solar and wind cost floors with PyPSA-Eur. Focus on energy arbitrage and where batteries robustly mitigate renewable droughts.  
+  
 
 - **Geospatial Analysis of Commodity Production Costs:**
   Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_. This is part of the [CCG](https://climatecompatiblegrowth.com/) project.
