@@ -23,7 +23,7 @@ nav_order: 1
 
 <div class="talks">
 
-{% assign talks_by_year = site.data.talks | group_by: "year" | reverse %}
+{% assign talks_by_year = site.data.talks | group_by: "year" | sort: "name" | reverse %}
 
 {% for year_group in talks_by_year %}
 
