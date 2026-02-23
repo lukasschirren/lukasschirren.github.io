@@ -5,9 +5,17 @@
 # sort_date is used for chronological ordering (format: YYYY-MM-DD) 
   # status: "upcoming"
 
+- year: 2026
+  date: "May 3"
+  sort_date: "2026-05-03"
+  title: "Spatial Battery Siting under Renewable Cost Floors: A PyPSA-Eur Analysis for Europe to 2050"
+  venue: "EGU General Assembly"
+  location: "Vienna, Austria"
+  status: "upcoming"
+
 - year: 2025
   date: "November 18"
-  sort_date: "2025-11-20"
+  sort_date: "2025-11-18"
   title: "Stochastic Optimisation of Ukraine’s Power Sector Reconstruction under Future Policy Uncertainty"
   venue: "Decision Making Under Deep Uncertainty - Annual Meeting"
   location: "London"
