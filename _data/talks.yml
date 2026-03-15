@@ -5,8 +5,17 @@
 # sort_date is used for chronological ordering (format: YYYY-MM-DD) 
   # status: "upcoming"
 
+
 - year: 2026
-  date: "May 3"
+  date: "June 22"
+  sort_date: "2026-06-22"
+  title: "Reconstructing Ukraine's energy system for net-zero: short-term recovery, long-term decarbonisation pathways and green export opportunities"
+  venue: "IEW"
+  location: "Cape Town, South Africa"
+  status: "upcoming"
+
+- year: 2026
+  date: "May 5"
   sort_date: "2026-05-03"
   title: "Spatial Battery Siting under Renewable Cost Floors: A PyPSA-Eur Analysis for Europe to 2050"
   venue: "EGU General Assembly"
