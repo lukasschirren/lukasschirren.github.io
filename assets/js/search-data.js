@@ -84,6 +84,9 @@ ninja.data = [{
           section: "News",},{id: "news-presented-at-the-annual-meeting-of-the-decision-making-under-deep-uncertainty-dmdu-in-london",
           title: 'Presented at the annual meeting of the Decision Making Under Deep Uncertainty (DMDU)...',
           description: "",
+          section: "News",},{id: "news-attended-a-conference-on-investing-in-ukraine-from-projects-to-partnerships-hosted-by-kse-institute-in-london",
+          title: 'Attended a conference on Investing in Ukraine: From Projects to Partnerships hosted by...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
