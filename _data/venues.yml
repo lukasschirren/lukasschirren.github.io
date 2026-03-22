@@ -7,3 +7,10 @@
 
 "Vision":
   color: "#009f36"
+
+"ERC":
+  url: https://iopscience.iop.org/journal/2515-7620
+  color: "#00608c"
+
+"Preprint":
+  color: "#e07b00"
