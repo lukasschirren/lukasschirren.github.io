@@ -23,6 +23,14 @@
   location: "Vienna, Austria"
   status: "upcoming"
 
+- year: 2026
+  date: "April 9"
+  sort_date: "2026-04-09"
+  title: "Reconstructing Ukraine's energy system for net-zero"
+  venue: "GE Vernova visit to Imperial College London"
+  location: "London"
+  label: "(poster)"
+
 - year: 2025
   date: "November 18"
   sort_date: "2025-11-18"
