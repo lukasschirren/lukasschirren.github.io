@@ -87,6 +87,9 @@ ninja.data = [{
           section: "News",},{id: "news-attended-a-conference-on-investing-in-ukraine-from-projects-to-partnerships-hosted-by-kse-institute-in-london",
           title: 'Attended a conference on Investing in Ukraine: From Projects to Partnerships hosted by...',
           description: "",
+          section: "News",},{id: "news-spent-the-past-week-in-vienna-first-attending-the-complexity-science-policy-workshop-and-then-the-egu-conference-where-i-presented-my-work-on-future-battery-siting",
+          title: 'Spent the past week in Vienna, first attending the Complexity Science Policy Workshop...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
