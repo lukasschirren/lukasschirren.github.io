@@ -24,22 +24,19 @@ latest_posts:
   limit: 4 # leave blank to include all the blog posts
 ---
 
-## About me
-
-I am a researcher at Imperial College London in the department of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>. My work focuses on open-source energy system modelling with an emphasis on the decarbonisation of hard-to-abate sectors and energy security.
+I am a researcher at Imperial College London in the Department of Chemical Engineering, supervised by Prof <a href="https://scholar.google.co.uk/citations?user=U_KhvYMAAAAJ&hl=en">Adam Hawkes</a>. My work focuses on modelling future energy systems with an emphasis on industrial decarbonisation.
 Part of [CCG](https://climatecompatiblegrowth.com/team/lukas-schirren/), [SHIELD](https://epg.eng.ox.ac.uk/shield/team/), and [HI-ACT](https://hi-act.ac.uk/team/).
 
-##### Current Research Projects
+## Current Research Projects
 
 - **Reconstruction of Power and Industry in Ukraine:**
-  Modelling short- and long-term reconstruction of Ukraine’s power sector and linked energy-intensive industries, extending [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur) for all sectors of Ukraine and country-specific parameters. Also working on evaluating the impact of the Carbon Border Adjustment Mechanism (CBAM) on Ukraine's power and steel sector. This is part of the [SHIELD](https://epg.eng.ox.ac.uk/shield/) project.
+  Modelling short- and long-term reconstruction of the energy system of Ukraine, with an extended version of [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur). This is part of the [SHIELD](https://epg.eng.ox.ac.uk/shield/) project.
 
 - **Defossilising Petrochemical Production:**
   Analysing the global petrochemical industry with a focus on European value chains, exploring technology pathways, infrastructure needs, and policy instruments for defossilisation.
 
-- **Spatial Battery Sitting under Renewable Cost Uncertainty:**
-  Quantifying the spatial patterns of battery capacities under future solar and wind cost floors with PyPSA-Eur. Focus on energy arbitrage and where batteries robustly mitigate renewable droughts.  
+- **Future Electricity Prices in Europe:**
+  Analysing industrial tariffs, wholesale price formation, and the role of taxes, levies, and negative prices in a decarbonised power system.
   
-
-- **Geospatial Analysis of Commodity Production Costs:**
-  Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_. This is part of the [CCG](https://climatecompatiblegrowth.com/) project.
+<!-- - **Geospatial Analysis of Commodity Production Costs:**
+  Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Lao PDR_ and _Nepal_. This is part of the [CCG](https://climatecompatiblegrowth.com/) project. -->
