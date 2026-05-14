@@ -1,16 +1,18 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
-
 "ERC":
   url: https://iopscience.iop.org/journal/2515-7620
-  color: "#00608c"
+  color: "#C71585"
+
+"SoftwareX":
+  url: https://www.sciencedirect.com/journal/softwarex
+  color: "#1B998B"
 
 "Preprint":
-  color: "#e07b00"
+  color: "#E07B00"
+
+# Reserved for future venues — uncomment and rename when used:
+# "<VenueAbbr>":
+#   color: "#6A4C93"   # plum
+# "<VenueAbbr>":
+#   color: "#D62828"   # vermilion
+# "<VenueAbbr>":
+#   color: "#4A6FA5"   # soft slate-blue
