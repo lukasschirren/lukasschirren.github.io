@@ -716,6 +716,7 @@ footer.sticky-bottom {
   h2.bibliography {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    font-size: 1.75rem;
     font-weight: 600;
     border-bottom: 1px solid var(--global-divider-color);
     padding-bottom: 0.5rem;
@@ -1284,6 +1285,18 @@ ninja-keys::part(ninja-input-wrapper) {
   background: transparent;
   border: none;
   cursor: pointer;
+}
+
+.venue-badge {
+  display: inline-block;
+  padding: 0.05em 0.5em;
+  border-radius: 0.4em;
+  color: var(--global-card-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95em;
+  line-height: 1.4;
+  vertical-align: baseline;
 }
 
 @media (max-width: 575px) {

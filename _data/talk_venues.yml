@@ -1,0 +1,17 @@
+# Highlight selected talk venues with a coloured pill badge on /talks.
+# Key MUST match the `venue:` string in _data/talks.yml exactly.
+# To remove a highlight, delete or comment out the entry.
+# Palette mirrors _data/venues.yml (publications page).
+
+"International Energy Workshop":
+  color: "#C71585"   # magenta
+"EGU General Assembly":
+  color: "#1B998B"   # teal-green
+"Decision Making Under Deep Uncertainty - Annual Meeting":
+  color: "#E07B00"   # amber
+"World Hydrogen Week":
+  color: "#6A4C93"   # plum
+
+# Reserved colours from the site palette — copy a line above and rename:
+# color: "#D62828"   # vermilion
+# color: "#4A6FA5"   # soft slate-blue
