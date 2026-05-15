@@ -19,6 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
+body strong {
+  font-weight: 700;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -742,6 +746,7 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
+          box-shadow: none;
 
           a {
             color: white;
@@ -759,7 +764,7 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 700;
       }
 
       .author {
@@ -1369,7 +1374,7 @@ ninja-keys::part(ninja-input-wrapper) {
     }
 
     strong {
-      font-weight: 600;
+      font-weight: 700;
     }
   }
 
