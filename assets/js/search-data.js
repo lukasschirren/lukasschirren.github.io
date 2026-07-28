@@ -90,6 +90,9 @@ ninja.data = [{
           section: "News",},{id: "news-spent-one-week-in-vienna-first-attending-the-complexity-science-policy-workshop-and-then-the-egu-conference-where-i-presented-my-work-on-future-battery-siting",
           title: 'Spent one week in Vienna, first attending the Complexity Science Policy Workshop and...',
           description: "",
+          section: "News",},{id: "news-i-attended-the-data-driven-ai-agent-based-models-for-economics-summer-school-at-bse-in-barcelona-spain",
+          title: 'I attended the Data-Driven (AI) Agent-Based Models for Economics summer school at BSE...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
