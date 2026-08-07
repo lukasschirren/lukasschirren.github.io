@@ -29,14 +29,14 @@ Part of [CCG](https://climatecompatiblegrowth.com/team/lukas-schirren/), [SHIELD
 
 ## Current Research Projects
 
-- **Reconstruction of Power and Industry in Ukraine:**
-  Modelling short- and long-term reconstruction of the energy system of Ukraine, with an extended version of [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur).
+- **Future Electricity Prices in GB and Europe:**
+  Analysing industrial tariffs, wholesale price formation, policy regimes, and the role of taxes, levies, and negative prices in a decarbonised power system.
 
 - **Defossilising Petrochemical Production:**
   Analysing the global petrochemical industry with a focus on European value chains, exploring technology pathways, infrastructure needs, and policy instruments for defossilisation.
 
-- **Future Electricity Prices in Europe:**
-  Analysing industrial tariffs, wholesale price formation, and the role of taxes, levies, and negative prices in a decarbonised power system.
+- **Reconstruction of Power and Industry in Ukraine:**
+  Modelling short- and long-term reconstruction of the energy system of Ukraine, with an extended version of [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur).
   
 - **Geospatial Analysis of Commodity Production Costs:**
   Advancing the [Geo-X](https://github.com/ClimateCompatibleGrowth/Geo-X) model and assessing the potential for hydrogen production from solar, wind, and hydropower in _Ukraine_, _Lao PDR_ and _Nepal_.
