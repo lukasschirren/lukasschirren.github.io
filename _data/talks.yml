@@ -10,8 +10,15 @@
   sort_date: "2026-10-02"
   title: "Decarbonising the European Petrochemical Industry"
   venue: "Transition Net Zero Series (Imperial)"
-  location: "London, UK"
+  location: "London"
   status: "upcoming"
+
+- year: 2026
+  date: "August 13"
+  sort_date: "2026-08-13"
+  title: "Converting legacy renewables to contracts for difference"
+  venue: "Tsinghua Unversity Energy & Power Engineering Department visit"
+  location: "London"
 
 - year: 2026
   date: "June 26"
