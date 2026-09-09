@@ -1,3 +1,15 @@
+"al-khourdajie":
+  - firstname: ["Alaa", "A."]
+    url: https://scholar.google.com/citations?hl=en&user=NeUIQeAAAAAJ&view_op=list_works&sortby=pubdate
+
+"egli":
+  - firstname: ["Florian", "F."]
+    url: https://scholar.google.com/citations?hl=de&user=SoDf1AIAAAAJ&view_op=list_works&sortby=pubdate
+
+"gast":
+  - firstname: ["Lukas", "L."]
+    url: https://scholar.google.com/citations?user=kaFbR0kAAAAJ&hl=en
+
 "hawkes":
   - firstname: ["Adam", "A."]
     url: https://scholar.google.co.uk/citations?hl=en&user=U_KhvYMAAAAJ
@@ -17,6 +29,10 @@
 "lubello":
   - firstname: ["Pietro", "P."]
     url: https://scholar.google.com/citations?user=BOZDeS8AAAAJ&hl=en
+
+"müller":
+  - firstname: ["Leander", "L."]
+    url: https://scholar.google.com/citations?hl=en&user=oSvhJJcAAAAJ&view_op=list_works&sortby=pubdate
 
 "phommachanh":
   - firstname: ["Sounthisack", "S."]
